@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ [stat -c %u hello] = "guillaume"] then chown hello betty fi
